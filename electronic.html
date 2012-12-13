@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+
+<title>Electronic Solution</title>
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/flexslider.css" rel="stylesheet" type="text/css">
+<link href="css/photoswipe.css" rel="stylesheet" type="text/css">
+
+<!-- Do not move the bellow script to custom.js! It must stay here to load properly! -->
+<script type="text/javascript">
+	function loadImages() {
+		if (document.getElementById) {  // DOM3 = IE5, NS6
+			document.getElementById('hidepage').style.visibility = 'hidden';
+		}else {
+		if (document.layers) {  // Netscape 4
+			document.hidepage.visibility = 'hidden';
+		}else {  // IE 4
+			document.all.hidepage.style.visibility = 'hidden';
+		  }
+	   }
+	}
+</script>
+
+<script type="text/javascript" src="scripts/jquery-1.8.1.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.flexslider-min.js"/></script>
+<script type="text/javascript" src="scripts/code.photoswipe.jquery-3.0.4.min.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+</head>
+
+<body OnLoad="loadImages()">
+
+<p class="no-mobile">Please visit from your mobile phone!<br/> This site is designed for mobiles you know! </p>
+<div class="site">
+
+<div id="hidepage"> 
+	<p class="center-text">Loading depends on mobile bandwidth speed!<br/><img src="images/background/130.gif" alt="load"></p>
+</div>
+
+	<div class="electronic">
+		<div class="navigation">
+			<a class="selected" href="index.html"><img src="images/nav/nav1_w.png" alt="img"><em class="under-icon-text">Home</em></a>
+    <a href="product.html"><img src="images/nav/nav2_w.png" alt="img"><em class="under-icon-text">Product</em></a>
+    <!--<a href="#"><img src="images/nav/nav3_w.png" alt="img"><em class="under-icon-text">Search</em></a>-->
+    <a href="#"><img src="images/nav/nav4_w.png" alt="img"><em class="under-icon-text">Cart</em></a>
+    <a href="#"><img src="images/nav/nav5_w.png" alt="img"><em class="under-icon-text">Map</em></a>
+		<a href="#"><img src="images/nav/nav6_w.png" alt="img"><em class="under-icon-text">Call Us</em></a>
+		</div>
+		
+		<div class="header" align="middle">
+			<img class="logo" src="images/logo/logo.png" alt="img"> 
+		</div>
+		<div class="header4" align="middle">
+			<img class="logo2" src="images/logo/logo4.png" alt="img"> 
+		</div>
+		<div class="header2back"><p>es</p></div>
+		<div class="header6" align="middle">
+			<a href="product.html"><img src="images/nav/back.png" /></a>
+		</div>
+						
+		<div class="content-tronic">
+		
+			<div>
+				<nav class="item">
+					<ul>
+						<li class="up"></li>
+						<li><a href="#">TELEVISION
+							<button class="menu-show"><img src="images/nav/next-up.png" width="15px" height="18px" /></button>
+							<button class="menu-hide"><img src="images/nav/next-down.png" width="15px" height="18px" /></button></a></li>
+							<div class="clear-both"></div>
+								<nav class="sub">
+										<ul>
+												<li><a href="item_detail.html">LCD&nbsp;<em>see all</em><img src="images/nav/next-up.png" width="10px" height="12px" /></a></li>
+												<li><a href="#">PLASMA&nbsp;<em>see all</em><img src="images/nav/next-up.png" width="10px" height="12px" /></a></li>
+												<li><a href="#">LED&nbsp;<em>see all</em><img src="images/nav/next-up.png" width="10px" height="12px" /></a></li>  
+										</ul>
+								</nav>
+						<li><a href="#">HOME THEATRE<img src="images/nav/next-up.png" width="15px" height="18px" /></a></li>
+						<li><a href="#">AUDIO PLAYER<img src="images/nav/next-up.png" width="15px" height="18px" /></a></li>
+						<li><a href="#">RADIO PLAYER<img src="images/nav/next-up.png" width="15px" height="18px" /></a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		
+	</div>
+<script>
+		$('.menu').hide();
+		$('.menu-show').show();
+		$('.menu-hide').hide();
+		$('.menu-show').click(function(){
+			$('.menu-show').toggle();
+			$('.menu-hide').toggle();
+			$('.sub').slideDown();
+		});
+		$('.menu-hide').click(function(){
+			$('.menu-hide').toggle();
+			$('.menu-show').toggle();
+			$('.sub').slideUp();
+		});
+</script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+
+<title>Electronic Solution</title>
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/flexslider.css" rel="stylesheet" type="text/css">
+<link href="css/photoswipe.css" rel="stylesheet" type="text/css">
+
+<!-- Do not move the bellow script to custom.js! It must stay here to load properly! -->
+<script type="text/javascript">
+	function loadImages() {
+		if (document.getElementById) {  // DOM3 = IE5, NS6
+			document.getElementById('hidepage').style.visibility = 'hidden';
+		}else {
+		if (document.layers) {  // Netscape 4
+			document.hidepage.visibility = 'hidden';
+		}else {  // IE 4
+			document.all.hidepage.style.visibility = 'hidden';
+		  }
+	   }
+	}
+</script>
+
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/jquery.flexslider-min.js"/></script>
+<script type="text/javascript" src="scripts/code.photoswipe.jquery-3.0.4.min.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+</head>
+
+<body OnLoad="loadImages()">
+
+<p class="no-mobile">Please visit from your mobile phone!<br/> This site is designed for mobiles you know! </p>
+<div class="site">
+
+<div id="hidepage"> 
+	<p class="center-text">Loading depends on mobile bandwidth speed!<br/><img src="images/background/130.gif" alt="load"></p>
+</div>
+
+	<div class="product">
+		<div class="navigation">
+			<a class="selected" href="index.html"><img src="images/nav/nav1_w.png" alt="img"><em class="under-icon-text">Home</em></a>
+    <a href="product.html"><img src="images/nav/nav2_w.png" alt="img"><em class="under-icon-text">Product</em></a>
+    <!--<a href="#"><img src="images/nav/nav3_w.png" alt="img"><em class="under-icon-text">Search</em></a>-->
+    <a href="#"><img src="images/nav/nav4_w.png" alt="img"><em class="under-icon-text">Cart</em></a>
+    <a href="#"><img src="images/nav/nav5_w.png" alt="img"><em class="under-icon-text">Map</em></a>
+		<a href="#"><img src="images/nav/nav6_w.png" alt="img"><em class="under-icon-text">Call Us</em></a>
+		</div>
+
+		<div class="header" align="middle">
+			<img class="logo" src="images/logo/logo.png" alt="img"> 
+		</div>
+		<div class="header3" align="middle">
+			<img class="logo2" src="images/logo/logo3.png" alt="img"> 
+		</div>
+		<div class="header2back"><p>es</p></div>
+		
+		<div class="content-product">
+			<div class="icon">	
+				<ul id="gallery" class="gallery">
+					<li><a href="electronic.html">
+								<img src="images/icon/001.png" alt="Caption Title One" />
+							</a></li>
+					<li><a href="#">
+								<img src="images/icon/002.png" alt="Caption Title Two" />
+							</a></li>
+					<li><a href="#">
+								<img src="images/icon/003.png" alt="Caption Title Three" />
+							</a></li>
+					<li><a href="#">
+								<img src="images/icon/004.png" alt="Caption Title Four" />
+							</a></li>
+					<li><a href="#">
+								<img src="images/icon/005.png" alt="Caption Title Five" />
+							</a></li>
+					<li><a href="#">
+								<img src="images/icon/006.png" alt="Caption Title Six" />
+							</a></li>
+					<li><a href="#">
+								<img src="images/icon/007.png" alt="Caption Title Eight" />
+							</a></li>
+					<li><a href="#">
+								<img src="images/icon/008.png" alt="Caption Title Nine" />
+							</a></li>
+					<li><a href="#">
+								<img src="images/icon/009.png" alt="Caption Title Ten" />
+							</a></li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+	
+</body>
+</html>

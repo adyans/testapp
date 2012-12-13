@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "com.koronx.es"
+	versionCode = "4"
+	version 	= "1.0.4">	
+
+	<name>Electronic Solution</name>
+
+	<description>
+		Electronic Solution
+	</description>
+
+	<author href="http://koronx.com/"
+		email="koronx@koronx.com">
+		koronx.com
+	</author>
+
+	<icon src="icon.png" default="true" />
+	<icon src="icon.png" hover="true" />
+	
+	<icon src="icon.png" width="57" height="57"/>
+	<icon src="icon-72.png" width="72" height="72"/>
+	<icon src="icon-114.png" width="114" height="114"/>
+
+	<preference name="stay-in-webview" value="true" />
+	<preference name="fullscreen" value="true" />	
+	
+	<gap:splash src="default.png" />
+	<gap:splash src="default-640x960.png" width="640" height="960" />
+	<gap:splash src="default-768x1004.png" width="768" height="1004" />
+	<gap:splash src="splashes/ipad-landscape.png" width="1024" height="748" />
+	
+	<!--
+	<gap:splash src="splashes/splash.png"/>
+	<gap:splash src="splashes/retina.png" width="640" height="960"/>
+	<gap:splash src="splashes/ipad-portrait.png" width="768" height="1004"/>
+	<gap:splash src="splashes/ipad-landscape.png" width="1024" height="748"/>
+	-->
+	
+	<!--
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+	-->
+	<feature name="http://api.phonegap.com/1.0/network"/>
+
+	<!-- sample preference specification -->
+	<!-- <preference name="autorotate" value="false" readonly="true"/> -->
+</widget>
