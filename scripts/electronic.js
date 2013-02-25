@@ -2,7 +2,8 @@ var serviceURL = "http://localhost/esapp/services/";
 serviceURL = "http://dignitymobile.co.id/projects/testapp/services/getproducts.php?t=electronic";
 
 var products;
-
+getProductData(serviceURL);
+/*
 $(document).ready(function() {
 	$.getJSON(serviceURL, function(data) {
 		products = data.item;
@@ -12,3 +13,4 @@ $(document).ready(function() {
 	});
 
 });
+*/
