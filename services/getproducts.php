@@ -1,6 +1,6 @@
 <?php
 
-include "config.php";
+//include "config.php";
 include "rssparser.php";
 
 $url = 'http://www.electronicsolution.com/rss/catalog/salesrule/store_id/2/cid/0/';

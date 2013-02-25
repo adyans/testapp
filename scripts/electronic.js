@@ -1,5 +1,5 @@
 var serviceURL = "http://localhost/esapp/services/";
-serviceURL = "http://dignitymobile.co.id/projects/esapp/services/getproducts.php?t=electronic";
+serviceURL = "http://dignitymobile.co.id/projects/testapp/services/getproducts.php?t=electronic";
 
 var products;
 
