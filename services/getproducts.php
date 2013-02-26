@@ -16,7 +16,8 @@ $urls = array(
     'office' => 'http://www.electronicsolution.com/rss/catalog/category/cid/39/store_id/2/',
     'computer' => 'http://www.electronicsolution.com/rss/catalog/category/cid/15/store_id/2/',
     'tenant' => 'http://www.electronicsolution.com/rss/catalog/category/cid/40/store_id/2/',
-    'furniture' => 'http://www.electronicsolution.com/rss/catalog/category/cid/10/store_id/2/'
+    'furniture' => 'http://www.electronicsolution.com/rss/catalog/category/cid/10/store_id/2/',
+    'gallery' => 'http://www.electronicsolution.com/rss/catalog/category/cid/197/store_id/2/'
 );
 
 if ($_GET) {
