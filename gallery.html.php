@@ -1,6 +1,6 @@
 <div id="judul" class="judul" style="margin-bottom:10px;padding:5px;">New Products</div>
 <div style="clear:both;"></div>
-				<ul id="gallery" class="gallery">
+				<ul id="home-gallery" class="gallery">
 
 					<!--li><a href="#">
 								<img src="images/content/001.png" alt="Caption Title One" />
@@ -23,16 +23,6 @@
 				</ul> 
 
 <script type="text/javascript">
-
-
-	var serviceURL = "http://www.electronicsolution.com/rss/catalog/category/cid/197/store_id/2/";
-	serviceURL = "http://dignitymobile.co.id/projects/testapp/services/getproducts.php?t=gallery";
-	//serviceURL = "services/getproducts.php?t=gallery";
-
-	$("#gallery").html("<div class='font10' style='padding:15px;'>Loading data...</div>");
-
-	getNewProducts(serviceURL);
-
 
 
 </script>
